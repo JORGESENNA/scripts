@@ -1,0 +1,5 @@
+Passo 1 instlando Git no Linux
+
+```shell
+apt-get install git
+``` 
