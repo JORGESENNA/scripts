@@ -1,0 +1,10 @@
+Instalando ssh server
+
+su
+
+systemctl status ssh
+
+apt-get install SSH openssh-server
+
+
+systemctl status ssh
