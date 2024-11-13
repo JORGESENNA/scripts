@@ -1,18 +1,18 @@
-***Instalação do servidor apache***
--atualizar o servidor
+##*****Instalação do servidor apache***
+#-atualizar o servidor
 sudo apt-get update
 sudo apt-get upgrade
 
--Instalando o Apache
+#-Instalando o Apache
 sudo apt-get install apache2
 
--Verificando o servidor
+#-Verificando o servidor
 sudo systemctl status apache2
 
 
-***Instalando o Serviço PHP***
-Entrar na pasta
-Pasta Var/WWWW (para acessar o APache)
+#***Instalando o Serviço PHP***
+#Entrar na pasta
+#Pasta Var/WWWW (para acessar o APache)
 
 sudo add-apt-repositry ppa:ondrej/php
 sudo apt-get install php libapache2-mod-php php-mysql php-dev php-pear
@@ -22,12 +22,12 @@ sudo nano index.php
 sudo systemctl restart apache2
 sudo systemctl status apache2
 
-<?php
-phpinfo();
-?>
+#   <?php
+#   phpinfo();
+#   ?>
 
-***Configurando o Servidor FTP***
-SFTP 
+#***Configurando o Servidor FTP***
+#SFTP 
 
 
 
