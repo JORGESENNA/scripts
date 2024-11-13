@@ -27,3 +27,15 @@ sudo docker swarm init
 #7-saindo do docker swarm
 
 sudo docker swarm leave -f
+
+#docker info
+
+sudo docker info
+
+# docker swarm join --token 
+
+#Listando todos os nodes
+sudo docker node ls
+
+#addcionando os dodes, pega pp Join com token e inseir no nodes
+sudo swarm join --token ****** IP:PORTA
